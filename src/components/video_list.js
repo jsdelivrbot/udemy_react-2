@@ -3,6 +3,8 @@ import VideoListItem from './video_list_item';
 
 const VideoList = (props) => {
 
+//functional components whenever we have a simple component 
+//that takes some number of properties and return some amount of static jsx 
 const videoItems = props.videos.map((video) => {
 		return (
 			<VideoListItem 
